@@ -46,13 +46,14 @@ public class GerenciarController implements Initializable {
     private Button botaddcasa, botaddhotel, botDelcasa, botDelhotel, botHipo;
 
     @FXML
-    private ChoiceBox<Casa_Propietaria> dropaddcasa, dropaddHot, dropDelcasa, dropDelHotel, dropHipo;
+    private ChoiceBox<Casa_Propietaria>  dropHipo;
+
+    //@FXML
+   // private ChoiceBox<cores> dropaddcasa, dropaddHot, dropDelcasa, dropDelHotel,
 
     @FXML
-    private TableView<Apartamento> apps;
+    private TableView<Casa_Propietaria> apps;
 
-    @FXML
-    private TableView<Companhia> cias;
 
     @FXML
     private Polygon rect;
@@ -79,11 +80,10 @@ public class GerenciarController implements Initializable {
         inter.addAll(partida.getJogadorRodada().getMeusapartamentos());
         inter.addAll(partida.getJogadorRodada().getMinhascompanhias());
         totaldecasa = FXCollections.observableArrayList(inter);
-        dropHipo.setItems(totaldecasa);
 
         TableColumn nome = new TableColumn<Casa, String>("Nome");
         TableColumn cor = new TableColumn<>("Cor");
-        TableColumn ValorJogada = new TableColumn<>("Valor Jogada");
+        TableColumn ValorJogada = new TableColumn<>("Jogada");
         TableColumn hipoteca = new TableColumn<>("Hipoteca");
         TableColumn Casa = new TableColumn<>("Casa(R$)");
         TableColumn Hotel = new TableColumn<>("Hotel(R$)");
@@ -105,20 +105,22 @@ public class GerenciarController implements Initializable {
         Hotel.setMaxWidth(50);
         Hotel.setPrefWidth(50);
         ValorJogada.setCellValueFactory(new PropertyValueFactory<>("Valor_Jogada"));
-        ValorJogada.setMaxWidth(80);
-        ValorJogada.setPrefWidth(80);
+        ValorJogada.setMaxWidth(50);
+        ValorJogada.setPrefWidth(50);
 
-        apps.getColumns().addAll(nome,cor,Casa,Hotel,hipoteca);
-        cias.getColumns().addAll(nome,ValorJogada, hipoteca);
-
-        apps.setItems(meusapps);
-        cias.setItems(minhasCias);
-
+        apps.getColumns().addAll(nome,cor, ValorJogada, Casa,Hotel,hipoteca) ;
+        apps.setItems(totaldecasa);
+        dropHipo.setItems(totaldecasa);
 
     }
 
     @FXML
     private void BotAddCasa() throws  Exception   {
+
+
+    }
+
+    private  void conversaoNome(){
 
 
     }
