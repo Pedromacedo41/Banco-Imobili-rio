@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="438.99997275389615" minWidth="287.0" prefHeight="580.9999727538961" prefWidth="561.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView id="ImpostoRenda" fitHeight="102.0" fitWidth="269.9998779296875" layoutX="149.0" layoutY="14.0" pickOnBounds="true">
+      <image>
+        <Image url="@Images/Logo" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Label fx:id="NameJogador" alignment="CENTER_LEFT" layoutX="191.0" layoutY="123.0" prefWidth="209.0" text="Bem vindo ao Banco Imobiliário!" textFill="#202020">
+      <font>
+        <Font name="Asana Math" size="12.0" />
+      </font>
+    </Label>
+    <Label id="label" fx:id="label2" layoutX="480.0" layoutY="307.0" prefWidth="158.0" text="" textFill="RED">
+      <font>
+        <Font name="Arial Black" size="9.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label id="label" fx:id="label3" font="$x3" layoutX="480.0" layoutY="344.0" prefWidth="158.0" text="" textFill="RED" />
+    <Label id="label" fx:id="label4" font="$x3" layoutX="480.0" layoutY="375.0" prefWidth="158.0" text="" textFill="RED" />
+    <Label id="label" fx:id="label5" font="$x3" layoutX="480.0" layoutY="406.0" prefWidth="158.0" text="" textFill="RED" />
+    <Label id="label" fx:id="label6" font="$x3" layoutX="481.0" layoutY="439.0" prefWidth="158.0" text="" textFill="RED" />
+    <Label id="label" fx:id="label7" alignment="CENTER" font="$x3" layoutX="223.0" layoutY="535.0" prefWidth="205.0" text="" textAlignment="CENTER" textFill="RED" />
+    <Button id="bo" fx:id="but2" layoutX="209.0" layoutY="528.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#Butao1" prefHeight="20.0" prefWidth="143.0" style="-fx-background-color: green;" text="Prosseguir para Jogo" textAlignment="JUSTIFY" textFill="WHITE">
+      <font>
+        <Font name="Andale Mono" size="9.0" fx:id="x2" />
+      </font>
+    </Button>
+    <TextArea fx:id="textarea" layoutX="70.0" layoutY="169.0" prefHeight="349.0" prefWidth="428.0" style="-fx-font-size:9;" text="Condicoes Iniciais&#10;-------------------------&#10;&#10;1) Os Jogadores jogam sempre na mesma ordem sorteada no inicio do jogo (Aleatoria)&#10;&#10;2) Quantia Inicial : R$ 1500,00&#10;&#10;Eliminacao&#10;---------------&#10;&#10;3) O Jogador e automaticamente eliminado se ao passar a &#10;jogada seu saldo for negativo&#10;&#10;Prisao&#10;---------&#10;&#10;4) O Jogador podera ficar preso por cair na Casa &quot;Prisao&quot; ou por Sorte e Reves. Ha uma Casa tambem para visitas&#10;&#10;5) Para sair o Jogador sair da prisao,  devera tirar o mesmo numero nos dois dados. Caso isso ocorra, joga-se na proxima rodada&#10;&#10;6) O numero maximo de tentativas e 3 (tres). Apos isso, o Jogador e 'solto'&#10;&#10;&#10;Vitoria&#10;----------&#10;&#10;7) Ganha o ultimo jogador nao eliminado ou o jogador com vantagem e 7 rodadas consecutivas &#10;&#10;Dinamica do Jogo&#10;-------------------------&#10;&#10;8) Ao se clicar  no centro do tabuleiro, rotaciona-se o mesmo. Isso pode ser feito a qualquer hora&#10;&#10;9) Sorteia-se dois dados e determina-se a nova posicao. A partir dai, o jogador seguira a instrucao de cada casa&#10;&#10;10) Para qualquer casa, o jogador podera executar a acao da casa imediatamente e  passar a jogada ou gerenciar seus imoveis e depois aplicar a acao da casa. Isso e importante por causa das hipotecas, administracao e caso de Falencia &#10;&#10;11)O painel e rotacionado imeditamento para o setor da nova posicao&#10;&#10;12) O jogador pode ter dois tipo de propriedades: Companhias, que cobram por valor da jogada do dado, e Apartamento, que cobram por aluguel (baseado no numero de casas e hoteis)&#10;&#10;13) So e possivel adicionar casas e hoteis a todos os apartamentos do bloco de uma cor. E preciso ter todos os apartamentos para adicionar casas/hoteis.&#10;&#10;14) Nao e possivel comprar imoveis apos entrar na Gerencia de Imoveis&#10; &#10;&#10;&#10;&#10;&#10;&#10;" wrapText="true" />
+    <Label id="NameJogador" alignment="CENTER_LEFT" layoutX="163.0" layoutY="146.0" prefWidth="243.0" text="Regras Básicas do Jogo: Leia com Atenção">
+      <font>
+        <Font name="Arial Black" size="10.0" fx:id="x1" />
+      </font>
+      <textFill>
+        <Color blue="0.125" green="0.125" red="0.125" fx:id="x4" />
+      </textFill>
+    </Label>
+  </children>
+</AnchorPane>

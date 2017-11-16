@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="438.99997275389615" minWidth="287.0" prefHeight="563.9999727538961" prefWidth="792.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView id="ImpostoRenda" fitHeight="90.25421142578125" fitWidth="233.0" layoutX="247.0" layoutY="14.0" pickOnBounds="true">
+      <image>
+        <Image url="@Images/Logo" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Label fx:id="NameJogador" alignment="CENTER_LEFT" layoutX="96.0" layoutY="118.0" prefWidth="209.0" text="Jogador1">
+      <font>
+        <Font name="Arial Black" size="16.0" fx:id="x1" />
+      </font>
+      <textFill>
+        <Color blue="0.000" green="0.600" red="0.192" fx:id="x4" />
+      </textFill>
+    </Label>
+    <Label id="label" fx:id="label2" layoutX="480.0" layoutY="307.0" prefWidth="158.0" text="" textFill="RED">
+      <font>
+        <Font name="Arial Black" size="9.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label id="label" fx:id="label3" font="$x3" layoutX="480.0" layoutY="344.0" prefWidth="158.0" text="" textFill="RED" />
+    <Label id="label" fx:id="label5" font="$x3" layoutX="480.0" layoutY="406.0" prefWidth="158.0" text="" textFill="RED" />
+    <Label id="label" fx:id="label6" font="$x3" layoutX="481.0" layoutY="439.0" prefWidth="158.0" text="" textFill="RED" />
+    <Label id="label" fx:id="label7" alignment="CENTER" font="$x3" layoutX="223.0" layoutY="535.0" prefWidth="205.0" text="" textAlignment="CENTER" textFill="RED" />
+    <Button id="bo" layoutX="303.0" layoutY="525.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#Butao1" prefHeight="20.0" prefWidth="121.0" style="-fx-background-color: green;" text="Passar Jogada" textAlignment="JUSTIFY" textFill="WHITE">
+      <font>
+        <Font name="Andale Mono" size="9.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Polygon fx:id="rect" fill="DODGERBLUE" layoutX="74.0" layoutY="138.0" rotate="0.0" scaleX="0.2365000139054772" scaleY="0.19491571347932374" stroke="BLACK" strokeType="INSIDE">
+      <points>
+        <Double fx:value="-50.0" />
+        <Double fx:value="40.0" />
+        <Double fx:value="50.0" />
+        <Double fx:value="40.0" />
+        <Double fx:value="0.0" />
+        <Double fx:value="-60.0" />
+      </points>
+    </Polygon>
+    <Label fx:id="casa" alignment="CENTER_LEFT" layoutX="132.0" layoutY="150.0" prefWidth="292.0" text="Sorte Ou Reves">
+      <font>
+        <Font name="Asana Math" size="13.0" fx:id="x5" />
+      </font>
+    </Label>
+    <Label fx:id="preco" alignment="CENTER_LEFT" layoutX="434.0" layoutY="519.0" prefWidth="251.0" text="" textFill="RED">
+      <font>
+        <Font name="Asana Math" size="11.0" fx:id="x6" />
+      </font>
+    </Label>
+    <Label font="$x6" layoutX="56.0" layoutY="154.0" text="Posição Atual:" />
+    <Label font="$x6" layoutX="394.0" layoutY="189.0" text="Adicionar Casas" />
+    <Label font="$x6" layoutX="392.0" layoutY="227.0" text="Adicionar Hoteis" />
+    <Label font="$x6" layoutX="389.0" layoutY="377.0" text="Hipotecar Imovel" />
+    <Label font="$x6" layoutX="396.0" layoutY="291.0" text="Remover Casas" />
+    <Label font="$x6" layoutX="395.0" layoutY="328.0" minHeight="12.999900000002526" prefHeight="23.0" text="Remover Hoteis" />
+    <Label id="NameJogador" alignment="CENTER" font="$x1" layoutX="432.0" layoutY="129.0" prefWidth="209.0" text="Gerenciar Imóveis" textFill="#202020" />
+    <Label font="$x6" layoutX="56.0" layoutY="180.0" text="Companhias Propietárias" />
+    <Label font="$x6" layoutX="56.0" layoutY="307.0" text="Apartamentos Propietários" />
+    <ChoiceBox fx:id="dropaddcasa" layoutX="480.0" layoutY="196.0" prefWidth="121.0" style="-fx-font-size:9">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <ChoiceBox fx:id="dropaddHot" layoutX="480.0" layoutY="235.0" prefWidth="121.0" style="-fx-font-size:9">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <ChoiceBox fx:id="dropDelcasa" layoutX="481.0" layoutY="299.0" prefWidth="121.0" style="-fx-font-size:9">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <ChoiceBox fx:id="dropDelHotel" layoutX="481.0" layoutY="334.0" prefWidth="121.0" style="-fx-font-size:9">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <ChoiceBox fx:id="dropHipo" layoutX="481.0" layoutY="387.0" prefWidth="121.0" style="-fx-font-size:9">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <Button id="bo" fx:id="botaddcasa" font="$x2" layoutX="613.0" layoutY="195.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#BotAddCasa" prefHeight="17.0" prefWidth="51.0" style="-fx-background-color: green;" text="Add" textAlignment="JUSTIFY" textFill="WHITE" />
+    <Button id="bo" fx:id="botaddhotel" font="$x2" layoutX="614.0" layoutY="231.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#BotAddHotel" prefHeight="17.0" prefWidth="51.0" style="-fx-background-color: green;" text="Add" textAlignment="JUSTIFY" textFill="WHITE" />
+    <Button id="bo" fx:id="botDelcasa" font="$x2" layoutX="614.0" layoutY="297.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#BotDelCasa" prefHeight="17.0" prefWidth="51.0" style="-fx-background-color: red;" text="ok" textAlignment="JUSTIFY" textFill="WHITE" />
+    <Button id="bo" fx:id="botDelHotel" font="$x2" layoutX="613.0" layoutY="333.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#BotDelHotel" prefHeight="17.0" prefWidth="51.0" style="-fx-background-color: red;" text="ok" textAlignment="JUSTIFY" textFill="WHITE" />
+    <Button id="bo" fx:id="botHipo" font="$x2" layoutX="614.0" layoutY="387.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#BotHipo" prefHeight="17.0" prefWidth="51.0" style="-fx-background-color: red;" text="ok" textAlignment="JUSTIFY" textFill="WHITE" />
+    <TableView fx:id="apps" layoutX="56.0" layoutY="333.0" prefHeight="168.0" prefWidth="309.0" style="-fx-font-size:8" />
+    <TableView fx:id="cias" layoutX="56.0" layoutY="210.0" prefHeight="87.0" prefWidth="309.0" style="-fx-font-size:8" />
+    <Label font="$x6" layoutX="458.0" layoutY="154.0" text="Selecione o Imovel em cada caso" />
+  </children>
+</AnchorPane>

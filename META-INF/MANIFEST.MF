@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: /media/pedro/Pedro/Dropbox -Ubuntu/Dropbox/Codes/FirstInte
+ lliJ/src/com/BancoImobiliario/Jogo.java
+Main-Class: com.BancoImobiliario.Jogo
+
