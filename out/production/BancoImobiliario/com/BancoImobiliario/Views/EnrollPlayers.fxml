@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="602.000199999995" prefWidth="652.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2"  fx:controller="com.BancoImobiliario.Controllers.EnrollPlayersController">
+  <children>
+    <Button layoutX="267.0" layoutY="501.0" minHeight="15.0" mnemonicParsing="false" onAction="#StartGame" prefHeight="25.0" prefWidth="118.0"  text="Start Game" textAlignment="CENTER" textFill="BLACK">
+      <font>
+        <Font name="Caladea" size="12.0" />
+      </font>
+    </Button>
+    <ImageView id="ImpostoRenda" layoutX="142.0" layoutY="50.0" pickOnBounds="true">
+      <image>
+        <Image url="@Images/Logo" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Label layoutX="269.0" layoutY="210.0" text="Adicionar Jogadores">
+      <font>
+        <Font name="Asana Math" size="13.0" />
+      </font>
+    </Label>
+    <Label layoutX="248.0" layoutY="235.0" text="(Mínimo 2 Jogadores, Máximo 6)" textAlignment="CENTER" textFill="#009918">
+      <font>
+        <Font name="Arial Black" size="10.0" />
+      </font>
+    </Label>
+    <ChoiceBox fx:id="check1" layoutX="337.0" layoutY="272.0" minHeight="15.0" opacity="1.0" prefHeight="17.0" prefWidth="69.0" style="-fx-font-size:9">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <Label layoutX="65.0" layoutY="269.0" text="Player 1">
+      <font>
+        <Font name="Asana Math" size="9.0" fx:id="x1" />
+      </font>
+    </Label>
+    <TextField fx:id="inputText1" layoutX="106.0" layoutY="271.0" prefHeight="18.0" prefWidth="192.0" style="-fx-border: none;&#10;&#10;-fx-font-size:10" />
+    <Button id="bo" fx:id="botao1" layoutX="418.0" layoutY="272.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#CheckPlayer1" prefHeight="17.0" prefWidth="51.0" style="" text="Add" textAlignment="JUSTIFY">
+      <font>
+        <Font name="Andale Mono" size="9.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Label font="$x1" layoutX="309.0" layoutY="270.0" minHeight="20.0" prefHeight="20.0" text="Color" />
+    <Label id="label" fx:id="label1" layoutX="481.0" layoutY="272.0" prefWidth="158.0" text="" textFill="RED">
+      <font>
+        <Font name="Arial Black" size="9.0" fx:id="x3" />
+      </font>
+    </Label>
+    <TextField id="inputText1" fx:id="inputText2" layoutX="106.0" layoutY="306.0" prefHeight="17.0" prefWidth="192.0" style="-fx-border: none;&#10;&#10;-fx-font-size:10" />
+    <TextField id="inputText1" fx:id="inputText3" layoutX="106.0" layoutY="341.0" prefHeight="17.0" prefWidth="192.0" style="-fx-border: none;&#10;&#10;-fx-font-size:10" />
+    <TextField id="inputText1" fx:id="inputText4" layoutX="106.0" layoutY="375.0" prefHeight="17.0" prefWidth="192.0" style="-fx-border: none;&#10;&#10;-fx-font-size:10" />
+    <TextField id="inputText1" fx:id="inputText5" layoutX="106.0" layoutY="406.0" prefHeight="17.0" prefWidth="192.0" style="-fx-border: none;&#10;&#10;-fx-font-size:10" />
+    <TextField id="inputText1" fx:id="inputText6" layoutX="106.0" layoutY="440.0" prefHeight="15.0" prefWidth="192.0" style="-fx-border: none;&#10;&#10;-fx-font-size:10" />
+    <Label font="$x1" layoutX="65.0" layoutY="304.0" text="Player 2" />
+    <Label font="$x1" layoutX="65.0" layoutY="338.0" text="Player 3" />
+    <Label font="$x1" layoutX="65.0" layoutY="372.0" text="Player 4" />
+    <Label font="$x1" layoutX="65.0" layoutY="402.0" text="Player 5" />
+    <Label font="$x1" layoutX="65.0" layoutY="436.0" text="Player 6" />
+    <Label font="$x1" layoutX="309.0" layoutY="305.0" minHeight="20.0" prefHeight="20.0" text="Color" />
+    <Label font="$x1" layoutX="309.0" layoutY="341.0" minHeight="20.0" prefHeight="20.0" text="Color" />
+    <Label font="$x1" layoutX="309.0" layoutY="371.0" minHeight="20.0" prefHeight="20.0" text="Color" />
+    <Label font="$x1" layoutX="309.0" layoutY="402.0" minHeight="20.0" prefHeight="20.0" text="Color" />
+    <Label font="$x1" layoutX="309.0" layoutY="436.0" minHeight="20.0" prefHeight="20.0" text="Color" />
+    <ChoiceBox fx:id="check2" layoutX="337.0" layoutY="308.0" minHeight="15.0" opacity="1.0" prefHeight="17.0" prefWidth="69.0" style="-fx-font-size:9">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <ChoiceBox fx:id="check3" layoutX="337.0" layoutY="342.0" minHeight="15.0" opacity="1.0" prefHeight="17.0" prefWidth="69.0" style="-fx-font-size:9">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <ChoiceBox fx:id="check4" layoutX="337.0" layoutY="374.0" minHeight="15.0" opacity="1.0" prefHeight="17.0" prefWidth="69.0" style="-fx-font-size:9">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <ChoiceBox fx:id="check5" layoutX="337.0" layoutY="405.0" minHeight="15.0" opacity="1.0" prefHeight="17.0" prefWidth="69.0" style="-fx-font-size:9">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <ChoiceBox fx:id="check6" layoutX="337.0" layoutY="438.0" minHeight="15.0" opacity="1.0" prefHeight="17.0" prefWidth="69.0" style="-fx-font-size:9">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <Button fx:id="botao2" font="$x2" layoutX="418.0" layoutY="308.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#CheckPlayer2" prefHeight="17.0" prefWidth="51.0" style="" text="Add" textAlignment="JUSTIFY" />
+    <Button fx:id="botao3" font="$x2" layoutX="418.0" layoutY="342.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#CheckPlayer3" prefHeight="17.0" prefWidth="51.0" style="" text="Add" textAlignment="JUSTIFY" />
+    <Button fx:id="botao4" font="$x2" layoutX="418.0" layoutY="373.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#CheckPlayer4" prefHeight="17.0" prefWidth="51.0" style="" text="Add" textAlignment="JUSTIFY" />
+    <Button fx:id="botao5" font="$x2" layoutX="418.0" layoutY="404.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#CheckPlayer5" prefHeight="17.0" prefWidth="51.0" style="" text="Add" textAlignment="JUSTIFY" />
+    <Button fx:id="botao6" font="$x2" layoutX="418.0" layoutY="437.0" minHeight="15.0" minWidth="40.0" mnemonicParsing="false" onAction="#CheckPlayer6" prefHeight="17.0" prefWidth="51.0" style="" text="Add" textAlignment="JUSTIFY" />
+    <Label id="label" fx:id="label2" font="$x3" layoutX="480.0" layoutY="307.0" prefWidth="158.0" text="" textFill="RED" />
+    <Label id="label" fx:id="label3" font="$x3" layoutX="480.0" layoutY="344.0" prefWidth="158.0" text="" textFill="RED" />
+    <Label id="label" fx:id="label4" font="$x3" layoutX="480.0" layoutY="375.0" prefWidth="158.0" text="" textFill="RED" />
+    <Label id="label" fx:id="label5" font="$x3" layoutX="480.0" layoutY="406.0" prefWidth="158.0" text="" textFill="RED" />
+    <Label id="label" fx:id="label6" font="$x3" layoutX="481.0" layoutY="439.0" prefWidth="158.0" text="" textFill="RED" />
+    <Label id="label" fx:id="label7" alignment="CENTER" font="$x3" layoutX="223.0" layoutY="535.0" prefWidth="205.0" text="" textAlignment="CENTER" textFill="RED" />
+  </children>
+</AnchorPane>

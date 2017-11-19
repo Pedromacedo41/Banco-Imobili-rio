@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="archor" prefHeight="1055.0" prefWidth="1053.0" rotate="0.0" style="&#10;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="397.0" layoutY="936.0" stroke="#00ffe0" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="f6" alignment="CENTER" layoutX="402.0" layoutY="1024.0" prefWidth="72.9998779296875" text="R$ 200">
+      <font>
+        <Font name="Arial Black" size="10.0" fx:id="x1" />
+      </font>
+    </Label>
+    <TextArea id="te" fx:id="d6" layoutX="401.0" layoutY="942.0" prefHeight="38.0" prefWidth="79.0" style="-fx-font-size:9;&#10;&#10;" text="Av. Brigadeiro Faria Lima" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="219.0" layoutY="936.0" strokeType="INSIDE" width="86.9999008178711">
+      <stroke>
+        <Color blue="0.878" green="1.000" red="0.000" fx:id="x2" />
+      </stroke>
+    </Rectangle>
+    <Label fx:id="f8" alignment="CENTER" font="$x1" layoutX="231.0" layoutY="1023.0" prefHeight="17.0" prefWidth="62.0" text="R$ 220" />
+    <TextArea id="te" fx:id="d8" layoutX="223.0" layoutY="943.0" prefHeight="38.0" prefWidth="78.99990844726562" style="-fx-font-size:9;&#10;&#10;" text="Av. Rebouças" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="130.0" layoutY="935.0" stroke="$x2" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="f9" alignment="CENTER" font="$x1" layoutX="137.0" layoutY="1022.0" prefWidth="72.9998779296875" text="R$ 220" />
+    <TextArea id="te" fx:id="d9" layoutX="134.0" layoutY="942.0" prefHeight="38.0" prefWidth="78.99990844726562" style="-fx-font-size:9;&#10;" text="Av. 9 de Julho" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="848.0" layoutY="936.0" strokeType="INSIDE" width="86.9999008178711">
+      <stroke>
+        <Color blue="0.384" green="0.000" red="0.800" fx:id="x12" />
+      </stroke>
+    </Rectangle>
+    <Label fx:id="f1" alignment="CENTER" font="$x1" layoutX="849.0" layoutY="1025.0" prefWidth="72.9998779296875" text="R$ 100" />
+    <TextArea id="te" fx:id="d1" layoutX="852.0" layoutY="943.0" prefHeight="38.0" prefWidth="78.99990844726562" style="-fx-font-size:9;&#10;&#10;" text="Leblon" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="667.0" layoutY="936.0" stroke="$x12" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="f3" alignment="CENTER" font="$x1" layoutX="678.0" layoutY="1027.0" prefWidth="63.0" text="R$ 60" />
+    <TextArea id="te" fx:id="d3" layoutX="671.0" layoutY="943.0" prefHeight="38.0" prefWidth="78.99990844726562" style="-fx-font-size:9;&#10;&#10;" text="Presidente Vargas" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="577.0" layoutY="936.0" stroke="$x12" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="f4" alignment="CENTER" font="$x1" layoutX="580.0" layoutY="1026.0" prefWidth="72.99986267089844" text="R$ 60" />
+    <TextArea id="te" fx:id="d4" layoutX="581.0" layoutY="943.0" prefHeight="38.0" prefWidth="78.99990844726562" style="-fx-font-size:9;&#10;&#10;&#10;" text="Nossa Sra Copacabana" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="945.0" layoutY="566.0" rotate="270.0" stroke="#00cc52" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="f36" alignment="CENTER" font="$x1" layoutX="993.0" layoutY="616.0" prefWidth="73.0" rotate="270.0" text="R$ 300" />
+    <TextArea id="te" fx:id="d36" layoutX="921.0" layoutY="601.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="270.0" style="-fx-font-size:9;&#10;&#10;&#10;" text="Ipanema" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="945.0" layoutY="114.0" rotate="270.0" strokeType="INSIDE" width="86.9999008178711">
+      <stroke>
+        <Color blue="0.322" green="0.800" red="0.000" fx:id="x4" />
+      </stroke>
+    </Rectangle>
+    <Label fx:id="f31" alignment="CENTER" font="$x1" layoutX="998.0" layoutY="163.0" prefWidth="66.0" rotate="270.0" text="R$ 260" />
+    <TextArea id="te" fx:id="d31" layoutX="919.0" layoutY="149.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="270.0" style="-fx-font-size:9;&#10;&#10;&#10;" text="Copacabana" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="947.0" layoutY="386.0" rotate="270.0" stroke="$x4" strokeType="INSIDE" width="86.9999008178711" />
+    <Label id="e35" fx:id="f34" alignment="CENTER" font="$x1" layoutX="1003.0" layoutY="433.0" prefWidth="55.0" rotate="270.0" text="R$ 300" />
+    <TextArea id="te" fx:id="d34" layoutX="921.0" layoutY="421.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="270.0" style="-fx-font-size:9;&#10;" text="Av. Atlantica" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="947.0" layoutY="295.0" rotate="270.0" stroke="$x4" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="f33" alignment="CENTER" font="$x1" layoutX="1000.0" layoutY="345.0" prefWidth="62.0" rotate="270.0" text="R$ 320" />
+    <TextArea id="te" fx:id="d33" layoutX="923.0" layoutY="332.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="270.0" style="-fx-font-size:9;&#10;&#10;" text="Av. Viera Solto" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="757.0" layoutY="12.0" rotate="180.0" stroke="#ffd466" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="f28" alignment="CENTER" font="$x1" layoutX="775.0" layoutY="16.0" prefWidth="60.0" rotate="180.0" text="R$ 140" />
+    <TextArea id="te" fx:id="d28" layoutX="762.0" layoutY="77.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="180.0" style="-fx-font-size:9;&#10;&#10;&#10;" text="Av. Paulista" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="847.0" layoutY="12.0" rotate="180.0" strokeType="INSIDE" width="86.9999008178711">
+      <stroke>
+        <Color blue="0.400" green="0.831" red="1.000" fx:id="x5" />
+      </stroke>
+    </Rectangle>
+    <Label fx:id="f29" alignment="CENTER" font="$x1" layoutX="860.0" layoutY="17.0" prefWidth="65.0" rotate="180.0" text="R$ 140" />
+    <TextArea id="te" fx:id="d29" layoutX="851.0" layoutY="79.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="180.0" style="-fx-font-size:9;&#10;&#10;&#10;" text="Jardim Europa" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="578.0" layoutY="12.0" rotate="180.0" stroke="$x5" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="fs6" alignment="CENTER" font="$x1" layoutX="587.0" layoutY="17.0" prefWidth="77.0" rotate="180.0" text="R$ 160" />
+    <TextArea id="te" fx:id="d26" layoutX="582.0" layoutY="77.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="180.0" style="-fx-font-size:9;&#10;&#10;" text="Av. Brasil" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="28.0" layoutY="292.0" rotate="90.0" strokeType="INSIDE" width="86.9999008178711">
+      <stroke>
+        <Color blue="0.000" green="0.478" red="1.000" fx:id="x8" />
+      </stroke>
+    </Rectangle>
+    <Label fx:id="f17" alignment="CENTER" font="$x1" layoutX="4.0" layoutY="338.0" prefWidth="53.0" rotate="90.0" text="R$ 350" />
+    <TextArea id="te" fx:id="d17" layoutX="62.0" layoutY="328.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="90.0" style="-fx-font-size:9;&#10;&#10;" text="Interlagos" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="27.0" layoutY="113.0" rotate="90.0" stroke="$x8" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="f19" alignment="CENTER" font="$x1" layoutX="6.0" layoutY="160.0" prefWidth="50.0" rotate="90.0" text="R$ 400" />
+    <TextArea id="te" fx:id="d19" layoutX="61.0" layoutY="149.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="90.0" style="-fx-font-size:9;&#10;&#10;&#10;" text="Marumbi" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="308.0" layoutY="12.0" strokeType="INSIDE" width="86.9999008178711">
+      <stroke>
+        <Color blue="0.200" green="0.200" red="1.000" fx:id="x6" />
+      </stroke>
+    </Rectangle>
+    <Label fx:id="f23" alignment="CENTER" font="$x1" layoutX="324.0" layoutY="19.0" prefWidth="67.0" rotate="180.0" text="R$ 100" />
+    <TextArea id="te" fx:id="d23" layoutX="312.0" layoutY="80.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="180.0" style="-fx-font-size:9;&#10;&#10;" text="Botafogo" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="130.0" layoutY="11.0" stroke="$x6" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="f21" alignment="CENTER" font="$x1" layoutX="143.0" layoutY="17.0" prefWidth="63.0" rotate="180.0" text="R$ 120" />
+    <TextArea id="te" fx:id="d21" layoutX="134.0" layoutY="79.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="180.0" style="-fx-font-size:9;&#10;&#10;" text="Flamengo" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="947.0" layoutY="838.0" rotate="270.0" strokeType="INSIDE" width="86.9999008178711">
+      <stroke>
+        <Color blue="0.600" green="0.239" red="0.000" fx:id="x9" />
+      </stroke>
+    </Rectangle>
+    <Label fx:id="f39" alignment="CENTER" font="$x1" layoutX="1000.0" layoutY="888.0" prefWidth="65.0" rotate="270.0" text="R$ 260" />
+    <TextArea id="te" fx:id="d39" layoutX="922.0" layoutY="872.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="270.0" style="-fx-font-size:9;&#10;&#10;&#10;" text="Brooklin" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="947.0" layoutY="746.0" rotate="270.0" stroke="$x9" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="f38" alignment="CENTER" font="$x1" layoutX="1002.0" layoutY="798.0" prefWidth="60.0" rotate="270.0" text="R$ 280" />
+    <TextArea id="te" fx:id="d38" layoutX="922.0" layoutY="781.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="270.0" style="-fx-font-size:9;&#10;&#10;" text="Jardim Paulista" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="26.0" layoutY="562.0" rotate="90.0" stroke="#a300cc" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="f14" alignment="CENTER" font="$x1" layoutX="4.0" layoutY="605.0" prefWidth="50.0" rotate="90.0" text="R$ 180" />
+    <TextArea id="te" fx:id="d14" layoutX="60.0" layoutY="599.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="90.0" style="-fx-font-size:9;&#10;&#10;" text="Av. Pacaembu" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="28.0" layoutY="654.0" rotate="90.0" strokeType="INSIDE" width="86.9999008178711">
+      <stroke>
+        <Color blue="0.800" green="0.000" red="0.639" fx:id="x7" />
+      </stroke>
+    </Rectangle>
+    <Label fx:id="f13" alignment="CENTER" font="$x1" layoutX="4.0" layoutY="697.0" prefWidth="52.0" rotate="90.0" text="R$ 180" />
+    <TextArea id="te" fx:id="d13" layoutX="62.0" layoutY="691.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="90.0" style="-fx-font-size:9;&#10;&#10;&#10;" text="Rua Augusta" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="26.0" layoutY="836.0" rotate="90.0" stroke="$x7" strokeType="INSIDE" width="86.9999008178711" />
+    <Label fx:id="f11" alignment="CENTER" font="$x1" layoutX="5.0" layoutY="881.0" prefWidth="49.0" rotate="90.0" text="R$ 200" />
+    <TextArea id="te" fx:id="d11" layoutX="61.0" layoutY="872.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="90.0" style="-fx-font-size:9;&#10;&#10;&#10;" text="Av. Europa" wrapText="true" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="757.0" layoutY="936.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <ImageView id="SorteReves" fitHeight="72.9998779296875" fitWidth="62.000030517578125" layoutX="770.0" layoutY="952.0" pickOnBounds="true">
+      <image>
+        <Image url="@Images/SorteReves.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="399.0" layoutY="12.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <ImageView fitHeight="65.24990844726562" fitWidth="86.9998779296875" layoutX="399.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true" />
+    <Label alignment="CENTER" font="$x1" layoutX="416.0" layoutY="17.0" rotate="180.0" text="Pague 200" />
+    <TextArea id="te" layoutX="403.0" layoutY="78.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="180.0" style="-fx-font-size:9;&#10;&#10;" text="Imposto de Renda" wrapText="true" />
+    <ImageView fitHeight="58.0" fitWidth="77.33333333333333" layoutX="402.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true" />
+    <ImageView id="ImpostoRenda" fitHeight="50.0" fitWidth="50.999900817871094" layoutX="415.0" layoutY="37.0" pickOnBounds="true" rotate="180.0">
+      <image>
+        <Image url="@Images/ImpostoRenda.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="308.0" layoutY="936.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="946.0" layoutY="475.0" rotate="270.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="489.0" layoutY="12.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="489.0" layoutY="935.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <Rectangle id="" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="947.0" layoutY="204.0" rotate="270.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="28.0" layoutY="471.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <TextArea id="te" fx:id="d7" layoutX="312.0" layoutY="940.0" prefHeight="38.0" prefWidth="78.99990844726562" style="-fx-font-size:9;&#10;&#10;" text="Transporte Alternativo" wrapText="true" />
+    <TextArea id="te" fx:id="d5" layoutX="493.0" layoutY="941.0" prefHeight="38.0" prefWidth="78.99990844726562" style="-fx-font-size:9;&#10;&#10;" text="Segurança Patrimonial" wrapText="true" />
+    <TextArea id="te" fx:id="d35" layoutX="922.0" layoutY="510.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="270.0" style="-fx-font-size:9;&#10;&#10;" text="Serviço de Moto-Taxi" wrapText="true" />
+    <TextArea id="te" fx:id="d32" layoutX="918.0" layoutY="240.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="270.0" style="-fx-font-size:9;&#10;&#10;" text="Maquina de Caça Niqueis" wrapText="true" />
+    <TextArea id="te" fx:id="d25" layoutX="493.0" layoutY="78.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="180.0" style="-fx-font-size:9;&#10;&#10;" text="Sinal de TV a Gato" wrapText="true" />
+    <TextArea id="te" fx:id="d15" layoutX="62.0" layoutY="508.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="90.0" style="-fx-font-size:9;&#10;&#10;" text="Botijao a Gas" wrapText="true" />
+    <ImageView id="BotijaoGas" fitHeight="50.00000762939453" fitWidth="50.999755859375" layoutX="39.0" layoutY="500.0" pickOnBounds="true" rotate="90.0">
+      <image>
+        <Image url="@Images/BotijaoGas.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <ImageView id="CacaNiqueis" fitHeight="51.0" fitWidth="51.0" layoutX="968.0" layoutY="233.0" pickOnBounds="true" rotate="270.0">
+      <image>
+        <Image url="@Images/CacaNiqueis.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <ImageView id="SegurancaPatrimonial" fitHeight="53.0" fitWidth="51.0" layoutX="508.0" layoutY="972.0" pickOnBounds="true">
+      <image>
+        <Image url="@Images/SegurancaPatrimonial.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <ImageView id="TransporteAlternativo" fitHeight="50.0" fitWidth="50.999908447265625" layoutX="326.0" layoutY="972.0" pickOnBounds="true">
+      <image>
+        <Image url="@Images/TransporteAlternativo.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <ImageView id="TVaGato" fitHeight="50.0" fitWidth="50.9998779296875" layoutX="507.0" layoutY="35.0" pickOnBounds="true" rotate="180.0">
+      <image>
+        <Image url="@Images/TVaGato.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <ImageView id="MotoTaxi" fitHeight="50.0" fitWidth="51.0" layoutX="970.0" layoutY="506.0" pickOnBounds="true" rotate="270.0">
+      <image>
+        <Image url="@Images/MotoTaxi.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Label fx:id="e7" alignment="CENTER" font="$x1" layoutX="315.0" layoutY="1024.0" prefWidth="73.0" text="R$ 200" />
+    <Label fx:id="e5" alignment="CENTER" font="$x1" layoutX="499.0" layoutY="1025.0" prefHeight="17.0" prefWidth="62.000030517578125" text="R$ 200" />
+    <Label fx:id="e35" alignment="CENTER" font="$x1" layoutX="1007.0" layoutY="527.0" prefWidth="50.0" rotate="270.0" text="R$ 200" />
+    <Label fx:id="e32" alignment="CENTER" font="$x1" layoutX="1002.0" layoutY="252.0" prefWidth="54.0" rotate="270.0" text="R$ 200" />
+    <Label fx:id="e25" alignment="CENTER" font="$x1" layoutX="504.0" layoutY="16.0" prefWidth="63.0" rotate="180.0" text="R$ 150" />
+    <Label fx:id="e15" alignment="CENTER" font="$x1" layoutX="5.0" layoutY="517.0" prefWidth="47.0" rotate="90.0" text="R$ 150" />
+    <ImageView id="LucroseDividendos" layoutX="30.0" layoutY="26.0" pickOnBounds="true" rotate="180.0">
+      <image>
+        <Image url="@Images/LucroseDividendos.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <ImageView id="Prisao" layoutX="945.0" layoutY="27.0" pickOnBounds="true">
+      <image>
+        <Image url="@Images/Prisao.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <ImageView id="PontoPartida" layoutX="943.0" layoutY="943.0" pickOnBounds="true">
+      <image>
+        <Image url="@Images/PontoPartida.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <ImageView id="PrisaoVisitante" layoutX="33.0" layoutY="949.0" pickOnBounds="true" rotate="0.0">
+      <image>
+        <Image url="@Images/PrisaoVisitante.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="27.0" layoutY="745.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <ImageView id="SorteReves" fitHeight="72.9998779296875" fitWidth="62.000030517578125" layoutX="40.0" layoutY="761.0" pickOnBounds="true" rotate="90.0">
+      <image>
+        <Image url="@Images/SorteReves.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="27.0" layoutY="382.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <ImageView id="SorteReves" fitHeight="72.9998779296875" fitWidth="62.000030517578125" layoutX="40.0" layoutY="398.0" pickOnBounds="true" rotate="90.0">
+      <image>
+        <Image url="@Images/SorteReves.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="28.0" layoutY="203.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <ImageView fitHeight="65.24990844726562" fitWidth="86.9998779296875" layoutX="28.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true" />
+    <Label font="$x1" layoutX="-4.0" layoutY="248.0" rotate="90.0" text="Receba 200" />
+    <TextArea id="te" layoutX="62.0" layoutY="239.0" prefHeight="38.0" prefWidth="78.99990844726562" rotate="90.0" style="-fx-font-size:9;&#10;&#10;" text="Lucros e Dividendos" wrapText="true" />
+    <ImageView fitHeight="58.0" fitWidth="77.33333333333333" layoutX="28.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true" />
+    <ImageView id="Lucros" fitHeight="51.0" fitWidth="51.0000084472631" layoutX="41.0" layoutY="230.0" pickOnBounds="true" rotate="90.0">
+      <image>
+        <Image url="@Images/Lucros.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="947.0" layoutY="655.0" rotate="270.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <ImageView id="SorteReves" fitHeight="72.9998779296875" fitWidth="62.000030517578125" layoutX="960.0" layoutY="671.0" pickOnBounds="true" rotate="270.0">
+      <image>
+        <Image url="@Images/SorteReves.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="668.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <ImageView id="SorteReves" fitHeight="72.9998779296875" fitWidth="62.000030517578125" layoutX="681.0" layoutY="24.0" pickOnBounds="true" rotate="180.0">
+      <image>
+        <Image url="@Images/SorteReves.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.9999008178711" layoutX="219.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="86.9999008178711" />
+    <ImageView id="SorteReves" fitHeight="72.9998779296875" fitWidth="62.000030517578125" layoutX="232.0" layoutY="27.0" pickOnBounds="true" rotate="180.0">
+      <image>
+        <Image url="@Images/SorteReves.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Button layoutX="154.0" layoutY="151.0" minWidth="32.9998779296875" mnemonicParsing="false" onAction="#Giro90" opacity="0.0" prefHeight="756.0" prefWidth="752.0" text="" />
+    <Rectangle id="c26" arcHeight="5.0" arcWidth="5.0" fill="#fff733" height="27.0" layoutX="580.0" layoutY="125.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="27.0" layoutX="757.0" layoutY="125.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0">
+      <fill>
+        <Color blue="0.200" green="0.969" red="1.000" fx:id="x10" />
+      </fill>
+    </Rectangle>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x10" height="27.0" layoutX="848.0" layoutY="125.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="27.0" layoutX="309.0" layoutY="121.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="27.0" layoutX="128.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle id="c8" arcHeight="5.0" arcWidth="5.0" fill="#33e7ff" height="27.0" layoutX="223.0" layoutY="910.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="27.0" layoutX="400.0" layoutY="907.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0">
+      <fill>
+        <Color blue="1.000" green="0.906" red="0.200" fx:id="x11" />
+      </fill>
+    </Rectangle>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x11" height="27.0" layoutX="132.0" layoutY="909.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x12" height="27.0" layoutX="579.0" layoutY="909.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x12" height="27.0" layoutX="667.0" layoutY="909.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x12" height="27.0" layoutX="847.0" layoutY="909.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#990093" height="27.0" layoutX="99.0" layoutY="696.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="27.0" layoutX="98.0" layoutY="602.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0">
+      <fill>
+        <Color blue="0.576" green="0.000" red="0.600" fx:id="x13" />
+      </fill>
+    </Rectangle>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x13" height="21.99993896484375" layoutX="93.0" layoutY="880.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="89.9997643066381" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x8" height="27.0" layoutX="96.0" layoutY="333.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle id="c19" arcHeight="5.0" arcWidth="5.0" fill="$x8" height="27.0" layoutX="98.0" layoutY="155.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle id="c33" arcHeight="5.0" arcWidth="5.0" fill="#10cc00" height="27.0" layoutX="879.0" layoutY="338.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="27.0" layoutX="879.0" layoutY="427.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0">
+      <fill>
+        <Color blue="0.000" green="0.800" red="0.063" fx:id="x14" />
+      </fill>
+    </Rectangle>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x14" height="27.0" layoutX="876.0" layoutY="605.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x14" height="27.0" layoutX="878.0" layoutY="154.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="27.0" layoutX="878.0" layoutY="787.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0">
+      <fill>
+        <Color blue="1.000" green="0.400" red="0.447" fx:id="x18" />
+      </fill>
+    </Rectangle>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x18" height="27.0" layoutX="879.0" layoutY="879.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+    <Label layoutX="951.0" layoutY="1026.0" text="Receba 200" textFill="WHITE">
+      <font>
+        <Font name="Arial Black" size="12.0" />
+      </font>
+    </Label>
+    <ImageView id="Prisao" fitHeight="162.1005401611328" fitWidth="527.4970092773438" layoutX="336.0" layoutY="477.0" pickOnBounds="true" rotate="135.0">
+      <image>
+        <Image url="@Images/Logo" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Label id="f1" fx:id="e1" alignment="CENTER" font="$x1" layoutX="849.0" layoutY="997.0" prefWidth="72.9998779296875" text="" />
+    <Label id="f1" fx:id="c1" alignment="CENTER" font="$x1" layoutX="852.0" layoutY="916.0" prefWidth="72.9998779296875" text="" />
+    <Label id="f3" fx:id="e3" alignment="CENTER" font="$x1" layoutX="678.0" layoutY="997.0" prefWidth="63.0" text="" />
+    <Label id="f3" fx:id="c3" alignment="CENTER" font="$x1" layoutX="678.0" layoutY="915.0" prefWidth="63.0" text="" />
+    <Label id="f3" fx:id="e4" alignment="CENTER" font="$x1" layoutX="589.0" layoutY="997.0" prefWidth="63.0" text="" />
+    <Label id="f3" fx:id="c4" alignment="CENTER" font="$x1" layoutX="589.0" layoutY="915.0" prefWidth="63.0" text="" />
+    <Label id="f6" fx:id="e6" alignment="CENTER" font="$x1" layoutX="405.0" layoutY="999.0" prefWidth="67.0" text="" />
+    <Label id="f6" fx:id="c6" alignment="CENTER" font="$x1" layoutX="408.0" layoutY="916.0" text="" />
+    <Label id="e7" fx:id="c7" alignment="CENTER" font="$x1" layoutX="315.0" layoutY="913.0" prefWidth="73.0" text="" />
+    <Label id="f8" fx:id="e8" alignment="CENTER" font="$x1" layoutX="231.0" layoutY="999.0" prefHeight="17.0" prefWidth="62.0" text="" />
+    <Label id="f8" fx:id="c8" alignment="CENTER" font="$x1" layoutX="232.0" layoutY="917.0" prefHeight="17.0" prefWidth="62.0" text="" />
+    <Label id="f9" fx:id="e9" alignment="CENTER" font="$x1" layoutX="136.0" layoutY="997.0" prefWidth="73.0" text="" />
+    <Label id="f9" fx:id="c9" alignment="CENTER" font="$x1" layoutX="138.0" layoutY="917.0" prefWidth="72.9998779296875" text="" />
+    <Label id="f11" fx:id="e11" alignment="CENTER" font="$x1" layoutX="31.0" layoutY="881.0" prefWidth="49.0" rotate="90.0" text="" />
+    <Label id="f11" fx:id="c11" alignment="CENTER" font="$x1" layoutX="114.0" layoutY="881.0" prefWidth="49.0" rotate="90.0" text="" />
+    <Label id="f13" fx:id="e13" alignment="CENTER" font="$x1" layoutX="31.0" layoutY="697.0" prefWidth="52.0" rotate="90.0" text="" />
+    <Label id="f13" fx:id="c13" alignment="CENTER" font="$x1" layoutX="116.0" layoutY="697.0" prefWidth="52.0" rotate="90.0" text="" />
+    <Label id="f14" fx:id="e14" alignment="CENTER" font="$x1" layoutX="32.0" layoutY="605.0" prefWidth="50.0" rotate="90.0" text="" />
+    <Label id="f14" fx:id="c14" alignment="CENTER" font="$x1" layoutX="117.0" layoutY="605.0" prefWidth="50.0" rotate="90.0" text="" />
+    <Label id="f17" fx:id="e18" alignment="CENTER" font="$x1" layoutX="30.0" layoutY="338.0" prefWidth="53.0" rotate="90.0" text="" />
+    <Label id="f17" fx:id="c18" alignment="CENTER" font="$x1" layoutX="113.0" layoutY="339.0" prefWidth="53.0" rotate="90.0" text="" />
+    <Label id="e15" fx:id="c15" alignment="CENTER" font="$x1" layoutX="117.0" layoutY="516.0" prefWidth="47.0" rotate="90.0" text="" />
+    <Label id="f19" fx:id="e19" alignment="CENTER" font="$x1" layoutX="34.0" layoutY="160.0" prefWidth="50.0" rotate="90.0" text="" />
+    <Label id="f19" fx:id="c19" alignment="CENTER" font="$x1" layoutX="117.0" layoutY="161.0" prefWidth="50.0" rotate="90.0" text="" />
+    <Label id="f21" fx:id="e21" alignment="CENTER" font="$x1" layoutX="144.0" layoutY="45.0" prefWidth="63.0" rotate="180.0" text="" />
+    <Label id="f21" fx:id="e23" alignment="CENTER" font="$x1" layoutX="326.0" layoutY="45.0" prefWidth="63.0" rotate="180.0" text="" />
+    <Label id="f21" fx:id="c23" alignment="CENTER" font="$x1" layoutX="320.0" layoutY="126.0" prefWidth="63.0" rotate="180.0" text="" />
+    <Label id="f21" fx:id="c21" alignment="CENTER" font="$x1" layoutX="143.0" layoutY="125.0" prefWidth="63.0" rotate="180.0" text="" />
+    <Label id="f21" fx:id="c25" alignment="CENTER" font="$x1" layoutX="501.0" layoutY="131.0" prefWidth="63.0" rotate="180.0" text="" />
+    <Label id="f21" fx:id="e26" alignment="CENTER" font="$x1" layoutX="594.0" layoutY="45.0" prefWidth="63.0" rotate="180.0" text="" />
+    <Label id="f21" fx:id="c26" alignment="CENTER" font="$x1" layoutX="591.0" layoutY="130.0" prefWidth="63.0" rotate="180.0" text="" />
+    <Label id="f21" fx:id="e28" alignment="CENTER" font="$x1" layoutX="774.0" layoutY="45.0" prefWidth="63.0" rotate="180.0" text="" />
+    <Label id="f21" fx:id="c28" alignment="CENTER" font="$x1" layoutX="770.0" layoutY="129.0" prefWidth="63.0" rotate="180.0" text="" />
+    <Label id="f21" fx:id="e29" alignment="CENTER" font="$x1" layoutX="860.0" layoutY="45.0" prefWidth="63.0" rotate="180.0" text="" />
+    <Label id="f21" fx:id="c19" alignment="CENTER" font="$x1" layoutX="855.0" layoutY="132.0" prefWidth="63.0" rotate="180.0" text="" />
+    <Label id="f39" fx:id="c38" alignment="CENTER" font="$x1" layoutX="888.0" layoutY="800.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="e38" alignment="CENTER" font="$x1" layoutX="971.0" layoutY="798.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="e39" alignment="CENTER" font="$x1" layoutX="969.0" layoutY="888.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="c39" alignment="CENTER" font="$x1" layoutX="891.0" layoutY="888.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="c36" alignment="CENTER" font="$x1" layoutX="886.0" layoutY="613.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="c34" alignment="CENTER" font="$x1" layoutX="888.0" layoutY="433.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="e34" alignment="CENTER" font="$x1" layoutX="971.0" layoutY="433.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="e36" alignment="CENTER" font="$x1" layoutX="971.0" layoutY="616.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="c32" alignment="CENTER" font="$x1" layoutX="889.0" layoutY="255.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="c33" alignment="CENTER" font="$x1" layoutX="889.0" layoutY="345.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="e33" alignment="CENTER" font="$x1" layoutX="971.0" layoutY="345.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="c35" alignment="CENTER" font="$x1" layoutX="887.0" layoutY="529.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="e31" alignment="CENTER" font="$x1" layoutX="971.0" layoutY="163.0" prefWidth="65.0" rotate="270.0" text="" />
+    <Label id="f39" fx:id="c31" alignment="CENTER" font="$x1" layoutX="887.0" layoutY="164.0" prefWidth="65.0" rotate="270.0" text="" />
+    <ImageView id="Prisao" fitHeight="162.1005401611328" fitWidth="527.4970092773438" layoutX="219.0" layoutY="354.0" pickOnBounds="true" rotate="315.0">
+      <image>
+        <Image url="@Images/Logo" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Label id="e5" fx:id="c5" alignment="CENTER" font="$x1" layoutX="499.0" layoutY="911.0" prefHeight="17.0" prefWidth="62.000030517578125" text="" />
+  </children>
+</AnchorPane>

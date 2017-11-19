@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="firstintellij" default="all">
+  
+  
+  <property file="firstintellij.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="700m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/*.rbc/**"/>
+    <exclude name="**/*.yarb/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.war"/>
+    <include name="*.swc"/>
+    <include name="*.zip"/>
+    <include name="*.egg"/>
+    <include name="*.ane"/>
+    <include name="*.jar"/>
+    <include name="*.ear"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+    <exclude name="**/?*.aj"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.8" value="${jdk.home.1.8}/bin"/>
+  <path id="jdk.classpath.1.8">
+    <fileset dir="${jdk.home.1.8}">
+      <include name="jre/lib/charsets.jar"/>
+      <include name="jre/lib/deploy.jar"/>
+      <include name="jre/lib/ext/cldrdata.jar"/>
+      <include name="jre/lib/ext/dnsns.jar"/>
+      <include name="jre/lib/ext/jaccess.jar"/>
+      <include name="jre/lib/ext/jfxrt.jar"/>
+      <include name="jre/lib/ext/localedata.jar"/>
+      <include name="jre/lib/ext/nashorn.jar"/>
+      <include name="jre/lib/ext/sunec.jar"/>
+      <include name="jre/lib/ext/sunjce_provider.jar"/>
+      <include name="jre/lib/ext/sunpkcs11.jar"/>
+      <include name="jre/lib/ext/zipfs.jar"/>
+      <include name="jre/lib/javaws.jar"/>
+      <include name="jre/lib/jce.jar"/>
+      <include name="jre/lib/jfr.jar"/>
+      <include name="jre/lib/jfxswt.jar"/>
+      <include name="jre/lib/jsse.jar"/>
+      <include name="jre/lib/management-agent.jar"/>
+      <include name="jre/lib/plugin.jar"/>
+      <include name="jre/lib/resources.jar"/>
+      <include name="jre/lib/rt.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.8}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.8}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.8"/>
+  <!-- Register Custom Compiler Taskdefs -->
+  <property name="javac2.home" value="${idea.home}/lib"/>
+  <path id="javac2.classpath">
+    <pathelement location="${javac2.home}/javac2.jar"/>
+    <pathelement location="${javac2.home}/jdom.jar"/>
+    <pathelement location="${javac2.home}/asm-all.jar"/>
+    <pathelement location="${javac2.home}/jgoodies-forms.jar"/>
+  </path>
+  <target name="register.custom.compilers">
+    <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="javac2.classpath"/>
+    <taskdef name="instrumentIdeaExtensions" classname="com.intellij.ant.InstrumentIdeaExtensions" classpathref="javac2.classpath"/>
+  </target>
+  
+  <!-- Modules -->
+  
+  
+  <!-- Module BancoImobiliario -->
+  
+  <dirname property="module.bancoimobiliario.basedir" file="${ant.file}"/>
+  
+  
+  <property name="module.jdk.home.bancoimobiliario" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.bancoimobiliario" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.bancoimobiliario" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.bancoimobiliario" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="bancoimobiliario.output.dir" value="${module.bancoimobiliario.basedir}/out/production/BancoImobiliario"/>
+  <property name="bancoimobiliario.testoutput.dir" value="${module.bancoimobiliario.basedir}/out/test/BancoImobiliario"/>
+  
+  <path id="bancoimobiliario.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="bancoimobiliario.module.production.classpath">
+    <path refid="${module.jdk.classpath.bancoimobiliario}"/>
+  </path>
+  
+  <path id="bancoimobiliario.runtime.production.module.classpath">
+    <pathelement location="${bancoimobiliario.output.dir}"/>
+  </path>
+  
+  <path id="bancoimobiliario.module.classpath">
+    <path refid="${module.jdk.classpath.bancoimobiliario}"/>
+    <pathelement location="${bancoimobiliario.output.dir}"/>
+  </path>
+  
+  <path id="bancoimobiliario.runtime.module.classpath">
+    <pathelement location="${bancoimobiliario.testoutput.dir}"/>
+    <pathelement location="${bancoimobiliario.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.bancoimobiliario">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.bancoimobiliario">
+    <patternset refid="excluded.from.module.bancoimobiliario"/>
+  </patternset>
+  
+  <path id="bancoimobiliario.module.sourcepath">
+    <dirset dir="${module.bancoimobiliario.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.bancoimobiliario" depends="compile.module.bancoimobiliario.production,compile.module.bancoimobiliario.tests" description="Compile module BancoImobiliario"/>
+  
+  <target name="compile.module.bancoimobiliario.production" depends="register.custom.compilers" description="Compile module BancoImobiliario; production classes">
+    <mkdir dir="${bancoimobiliario.output.dir}"/>
+    <javac2 destdir="${bancoimobiliario.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.bancoimobiliario}/javac">
+      <compilerarg line="${compiler.args.bancoimobiliario}"/>
+      <bootclasspath refid="bancoimobiliario.module.bootclasspath"/>
+      <classpath refid="bancoimobiliario.module.production.classpath"/>
+      <src refid="bancoimobiliario.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.bancoimobiliario"/>
+    </javac2>
+    
+    <copy todir="${bancoimobiliario.output.dir}">
+      <fileset dir="${module.bancoimobiliario.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.bancoimobiliario.tests" depends="register.custom.compilers,compile.module.bancoimobiliario.production" description="compile module BancoImobiliario; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.bancoimobiliario" description="cleanup module">
+    <delete dir="${bancoimobiliario.output.dir}"/>
+    <delete dir="${bancoimobiliario.testoutput.dir}"/>
+  </target>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.bancoimobiliario" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.bancoimobiliario" description="build all modules"/>
+  
+  <target name="init.artifacts">
+    <property name="artifacts.temp.dir" value="${basedir}/__artifacts_temp"/>
+    <property name="artifact.output.bancoimobiliario" value="${basedir}/out/artifacts/BancoImobiliario"/>
+    <mkdir dir="${artifacts.temp.dir}"/>
+    <property name="temp.jar.path.BancoImobiliario.jar" value="${artifacts.temp.dir}/BancoImobiliario.jar"/>
+    <property name="temp.jar.path.BancoImobiliario.jar2" value="${artifacts.temp.dir}/1/BancoImobiliario.jar"/>
+    <mkdir dir="${artifacts.temp.dir}/1"/>
+    <property name="temp.jar.path.Banco.jar" value="${artifacts.temp.dir}/Banco.jar"/>
+  </target>
+  
+  <target name="artifact.bancoimobiliario" depends="init.artifacts, compile.module.bancoimobiliario" description="Build &#39;BancoImobiliario&#39; artifact">
+    <property name="artifact.temp.output.bancoimobiliario" value="${artifacts.temp.dir}/BancoImobiliario"/>
+    <mkdir dir="${artifact.temp.output.bancoimobiliario}"/>
+    <jar destfile="${temp.jar.path.Banco.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
+      <zipfileset file="${basedir}/../../../../Downloads/META-INF/MANIFEST.MF" prefix="META-INF"/>
+    </jar>
+    <jar destfile="${temp.jar.path.BancoImobiliario.jar2}" duplicate="preserve" filesetmanifest="mergewithoutmain">
+      <zipfileset dir="${bancoimobiliario.output.dir}"/>
+      <zipfileset file="${temp.jar.path.Banco.jar}"/>
+      <zipfileset file="${basedir}/META-INF/MANIFEST.MF" prefix="META-INF"/>
+    </jar>
+    <jar destfile="${temp.jar.path.BancoImobiliario.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
+      <zipfileset file="${temp.jar.path.BancoImobiliario.jar2}"/>
+    </jar>
+    <copy file="${temp.jar.path.BancoImobiliario.jar}" tofile="${artifact.temp.output.bancoimobiliario}/BancoImobiliario.jar"/>
+  </target>
+  
+  <target name="build.all.artifacts" depends="artifact.bancoimobiliario" description="Build all artifacts">
+    <mkdir dir="${artifact.output.bancoimobiliario}"/>
+    <copy todir="${artifact.output.bancoimobiliario}">
+      <fileset dir="${artifact.temp.output.bancoimobiliario}"/>
+    </copy>
+    
+    <!-- Delete temporary files -->
+    <delete dir="${artifacts.temp.dir}"/>
+  </target>
+  
+  <target name="all" depends="build.modules, build.all.artifacts" description="build all"/>
+</project>
