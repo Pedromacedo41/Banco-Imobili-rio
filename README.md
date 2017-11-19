@@ -1,4 +1,4 @@
-# Banco-Imobili-rio
+# Banco-Imobiliario-Game
 
 Java Board Game (Banco Imobliario), with IntelliJ IDEA and Javafx to design the UI
 JDK 8 or superior to buid the project
